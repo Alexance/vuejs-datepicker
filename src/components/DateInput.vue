@@ -117,7 +117,7 @@ export default {
         this.input.blur()
       }
 
-      if ((this.typeable) && (typeof this$1.format === 'string')) {
+      if ((this.typeable) && (typeof this.format === 'string')) {
         let typedDate
 
         /**
